@@ -1,0 +1,81 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(86, 68, 167);
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    background-image: url('https://opengameart.org/sites/default/files/styles/medium/public/full%20moon%20-%20background_.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+input[type=text] {
+    border-radius: 7px;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(126, 104, 226);
+    color: white;
+    width: 80%;
+    padding: 10px;
+}
+
+input[type=submit] {
+    border-radius: 7px;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(126, 104, 226);
+    color: white;
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option {
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: rgb(126, 104, 226);
+    padding: 20px;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.dias {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: rgb(245, 245, 245);
+}
+
+.hj {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: rgb(245, 245, 245);
+}
+
+.til {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    margin-left: 20px;
+}
+
+.mapa {
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    background-color: white;
+}
